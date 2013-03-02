@@ -1,9 +1,9 @@
 `automaton task` - http://indigounited.com/automaton
 
-rm
+scaffolding-file-rename
 ===
 
-Remove file or set of files.
+Replaces {{placeholders}} in a set of file names.
 
 *Indigo United 2013*
 

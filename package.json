@@ -1,10 +1,10 @@
 {
   "name": "autofile-scaffolding-file-rename",
-  "version": "0.0.1",
-  "description": "Replaces {{placeholders}} in a set of files.",
+  "version": "0.0.0",
+  "description": "Replaces {{placeholders}} in a set of file names.",
   "main": "autofile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,16 @@
   ],
   "author": "Indigo United",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "~0.2.5",
+    "glob": "~3.1.21"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "rimraf": "~2.1.4",
+    "mocha": "~1.8.1",
+    "automaton": "~0.1.4",
+    "fstream": "~0.1.22"
+  }
 }
