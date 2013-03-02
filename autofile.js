@@ -10,7 +10,7 @@ module.exports = function (task) {
     task
     .id('scaffolding-file-rename')
     .name('Scaffolding: file rename.')
-    .description('Replaces {{placeholders}} in a set of file names.')
+    .description('Replaces {{placeholders}} of file and folder names.')
     .author('Indigo United')
 
     .option('files', 'From which dir to start looking for files with placeholders. Accepts a dir and array of dirs. Also note that the dirs can be minimatch patterns.')

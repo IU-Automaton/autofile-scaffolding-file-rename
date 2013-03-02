@@ -3,7 +3,7 @@
 scaffolding-file-rename
 ===
 
-Replaces {{placeholders}} in a set of file names.
+Replaces `{{placeholders}}` of file and folder names.
 
 *Indigo United 2013*
 

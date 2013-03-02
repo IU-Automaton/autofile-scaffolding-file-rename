@@ -1,7 +1,7 @@
 {
   "name": "autofile-scaffolding-file-rename",
   "version": "0.0.0",
-  "description": "Replaces {{placeholders}} in a set of file names.",
+  "description": "Replaces {{placeholders}} of file and folder names.",
   "main": "autofile.js",
   "scripts": {
     "test": "mocha -R spec"
