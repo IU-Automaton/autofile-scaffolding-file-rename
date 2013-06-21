@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IU-Automaton/autofile-scaffolding-file-rename"
+    "url": "git://github.com/IU-Automaton/autofile-scaffolding-file-rename.git"
   },
   "keywords": [
     "autofile",
@@ -25,13 +25,13 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "async": "~0.2.5",
-    "glob": "~3.1.21"
+    "glob": "~3.2.1"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
     "rimraf": "~2.1.4",
-    "mocha": "~1.8.1",
-    "automaton": "~0.1.4",
-    "fstream": "~0.1.22"
+    "automaton": "~0.2.0",
+    "fstream": "~0.1.22",
+    "mocha": "~1.11.0"
   }
 }

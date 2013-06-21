@@ -1,10 +1,9 @@
 'use strict';
 
-var fs    = require('fs'),
-    glob  = require('glob'),
-    async = require('async'),
-    path  = require('path')
-;
+var fs    = require('fs');
+var glob  = require('glob');
+var async = require('async');
+var path  = require('path');
 
 module.exports = function (task) {
     task
